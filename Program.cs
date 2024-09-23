@@ -41,8 +41,8 @@ internal class Program
                         int cos2 = rnd.Next(1, 7);
 
                         Console.Clear();
-                        Console.WriteLine($"{vypadlo}{cos1}a{cos2}");
-                        Console.WriteLine($"{hrajes}  {esc}");
+                        Console.WriteLine(vypadlo + " " + cos1 + cos2);
+                        Console.WriteLine(hrajes + " " + esc);
 
                         key = Console.ReadKey(true);
                         if (key.Key == ConsoleKey.Escape)
@@ -74,9 +74,9 @@ internal class Program
                         int pc1 = rnd.Next(1, 7);
                         int pc2 = rnd.Next(1, 7);
                         Console.Clear();
-                        Console.WriteLine($"{vypadlo} {cos1}a{cos2}");
-                        Console.WriteLine($"{pc} {pc1}a{pc2}");
-                        Console.WriteLine($"{hrajes} {esc}");
+                        Console.WriteLine(vypadlo + " " + cos1 + cos2);
+                        Console.WriteLine(pc + " " + pc1 + pc2);
+                        Console.WriteLine (hrajes + " " + esc);
 
                         key = Console.ReadKey(true);
                         if (key.Key == ConsoleKey.Escape)
